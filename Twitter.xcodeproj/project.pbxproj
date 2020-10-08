@@ -15,6 +15,8 @@
 		9DEEC05E25272EAD00FDA4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEEC05C25272EAD00FDA4E9 /* LaunchScreen.storyboard */; };
 		9DEEC06925272EAD00FDA4E9 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEC06825272EAD00FDA4E9 /* TwitterTests.swift */; };
 		9DEEC07425272EAD00FDA4E9 /* TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEC07325272EAD00FDA4E9 /* TwitterUITests.swift */; };
+		9DEEC08425273B1200FDA4E9 /* TweetsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEC08325273B1200FDA4E9 /* TweetsData.swift */; };
+		9DEEC08825273D6100FDA4E9 /* Twitters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEC08725273D6100FDA4E9 /* Twitters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9DEEC06F25272EAD00FDA4E9 /* TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEEC07325272EAD00FDA4E9 /* TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITests.swift; sourceTree = "<group>"; };
 		9DEEC07525272EAD00FDA4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEEC08325273B1200FDA4E9 /* TweetsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsData.swift; sourceTree = "<group>"; };
+		9DEEC08725273D6100FDA4E9 /* Twitters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				9DEEC05125272E9F00FDA4E9 /* AppDelegate.swift */,
 				9DEEC05325272E9F00FDA4E9 /* SceneDelegate.swift */,
 				9DEEC05525272E9F00FDA4E9 /* ContentView.swift */,
+				9DEEC08325273B1200FDA4E9 /* TweetsData.swift */,
+				9DEEC08725273D6100FDA4E9 /* Twitters.swift */,
 				9DEEC05725272EAD00FDA4E9 /* Assets.xcassets */,
 				9DEEC05C25272EAD00FDA4E9 /* LaunchScreen.storyboard */,
 				9DEEC05F25272EAD00FDA4E9 /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEEC05225272E9F00FDA4E9 /* AppDelegate.swift in Sources */,
+				9DEEC08425273B1200FDA4E9 /* TweetsData.swift in Sources */,
+				9DEEC08825273D6100FDA4E9 /* Twitters.swift in Sources */,
 				9DEEC05425272E9F00FDA4E9 /* SceneDelegate.swift in Sources */,
 				9DEEC05625272E9F00FDA4E9 /* ContentView.swift in Sources */,
 			);
